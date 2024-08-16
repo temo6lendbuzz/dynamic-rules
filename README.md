@@ -1,11 +1,19 @@
-# Just do make up and look at http://your_ip:10500/swagger-ui/index.html
-
-The rules descriptions are in dmn files in main/resources.
-
-
-# org.kie.kogito.kogito-spring-boot-archetype - 1.43.0.Final #
 
 # Running
+
+- The dockerfile will take care of generating and starting the java app.
+
+```
+make up
+```
+
+Look for the swagger in 
+
+```
+http://[ip]:10500/swagger-ui/index.html
+````
+
+You can also follow the manual:
 
 - Compile and Run
 
